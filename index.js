@@ -14,3 +14,6 @@ var genPass = ("")
 //changing h5 tag to generated password
 h5.textContent = (genPass)
 document.body.appendChild(h5)
+
+//    if there is time.
+//allow option to generate multiple passwords at a time.
