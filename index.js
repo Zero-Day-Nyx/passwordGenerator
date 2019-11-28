@@ -1,5 +1,6 @@
 //length
 var length = [length]
+//if length input is outside 8-128 chars then error appears
 //upper alpha
 var upper = [A,B,C,D...]
 //lower alpha
