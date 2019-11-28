@@ -7,6 +7,9 @@ var lower = [a,b,c,d...]
 //numeric
 var numbers = [0,1,2,3,4,5,6,7,8,9]
 //special characters
-var specChar = [specials]
+var specChar = ["!,@,#,$,%,&,*"]
 //generate password
+var genPass = ("")
 //changing h5 tag to generated password
+h5.textContent = (genPass)
+document.body.appendChild(h5)
