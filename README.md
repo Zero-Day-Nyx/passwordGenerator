@@ -1,9 +1,9 @@
-# Responsive Portfolio
+# Password Generator
 
-This is a responsive version of the coding portfolio for Nick Thomas
+This application will generate a random password based on the users choices of characters.
 
 ### link to the deployed website
--https://modern-viking.github.io/responsive_portfolio/
+- https://modern-viking.github.io/passwordGenerator/
 
 ## Contents
 
