@@ -8,6 +8,7 @@ This application will generate a random password based on the users choices of c
 ## Contents
 
 Main content page includes options for generating passwords and interactivity to copy passwords to clipboard.
+![screenshot]()
 
 ## Instructions
 
@@ -19,8 +20,6 @@ A big shout out to those who made this website possible. I appreciate all of you
 * https://github.com/jbejar
 * https://github.com/jrheap
 * https://github.com/Nidant
-* http://placehold.jp/
-* https://www.toptal.com/designers/subtlepatterns/?s=christmas
 
 ## License
 
