@@ -8,7 +8,7 @@ This application will generate a random password based on the users choices of c
 ## Contents
 
 Main content page includes options for generating passwords and interactivity to copy passwords to clipboard.
-![screenshot]()
+![screenshot](https://github.com/Modern-Viking/passwordGenerator/blob/master/assets/images/screenshot.png?raw=true)
 
 ## Instructions
 
