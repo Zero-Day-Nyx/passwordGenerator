@@ -12,7 +12,7 @@ Main content page includes options for generating passwords and interactivity to
 
 ## Instructions
 
-Use the check boxes and length input to choose length and characters for your password.  Once chosen click the generate password button and your password to populate on the screen.  You then have the choice to copy the password to your clip board using the so named button.]
+Use the check boxes and length input to choose length and characters for your password.  Once chosen click the generate password button and your password to populate on the screen.  You then have the choice to copy the password to your clip board using the so named button.
 
 ## Credits
 
