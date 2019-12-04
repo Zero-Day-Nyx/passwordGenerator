@@ -46,7 +46,7 @@ submit.addEventListener("click", function(){
     };
     
 //if length input is outside 8-128 chars then error appears
-if (length < 8 || length > 128){
+if (length < 8 || length > 128 || !length){
     alert ("Password length must be between 8 - 128 characters.")
 };
 
