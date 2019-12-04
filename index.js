@@ -1,37 +1,47 @@
+//element grabbers
+var lengthEl = document.getElementById(passLength)
+var specialEL = document.getElementById(special)
+var numbersEL = document.getElementById(numbers)
+var lowerEl = document.getElementById(lower)
+var upperEl = document.getElementById(upper)
+var submit = document.getElementById(submit)
+
 //length
-var length = (passLength[i]);
+var length = (lengthEl.value);
 //if length input is outside 8-128 chars then error appears
-if (length <= 7 || length >= 129){
-    alert ("Password length must be between 8-128 characters.");
-}
+if (length < 8 || length > 128){
+    alert ("Password length must be between 8 - 128 characters.")
+};
+
 //upper alpha
-var upper = [A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z];
-if (upper === true){
+var upperChar = ["A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z"];
 
-}
 //lower alpha
-var lower = [a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z];
-if (lower === true){
+var lowerChar = ["a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z"];
 
-}
 //numeric
-var numbers = [0,1,2,3,4,5,6,7,8,9];
-if (numbers === true){
+var numberSet = [0,1,2,3,4,5,6,7,8,9];
 
-}
 //special characters
 var specChar = ["!,@,#,$,%,&,*"];
-if (special === true){
 
-}
 //generate password
-var genPass = ("");
-//changing h5 tag to generated password
-h5.textContent = (genPass);
-document.body.appendChild(h5);
+var newPass = ("");
+//function genPass() {}
 
-//    if there is time.
-//allow option to generate multiple passwords at a time.
+//changing h5 tag to generated password
+//h5.textContent = (newPass);
+
+
 
 //console logs
-console.log(length[i]);
+console.log(length);
+
+//event listener
+submit.addEventListener("click", function(){
+    event.preventDefault();
+
+})
+
+
+//
