@@ -8,11 +8,11 @@ This application will generate a random password based on the users choices of c
 ## Contents
 
 Main content page includes options for generating passwords and interactivity to copy passwords to clipboard.
-![screenshot](https://github.com/Modern-Viking/passwordGenerator/blob/master/assets/images/screenshot.png?raw=true)
+![screenshot](https://github.com/Modern-Viking/passwordGenerator/blob/master/assets/images/Untitled.png?raw=true)
 
 ## Instructions
 
-Use the check boxes and length input to choose length and characters for your password.  Once chosen click the generate password button and your password to populate on the screen.  You then have the choice to copy the password to your clip board using the so named button.
+Use the check boxes and length input to choose a length from 8 to 128 characters and types of characters for your password.  Once chosen click the generate password button and your password will populate on the screen.  You then have the choice to copy the password to your clip board using the so named button.
 
 ## Credits
 
@@ -20,6 +20,7 @@ A big shout out to those who made this website possible. I appreciate all of you
 * https://github.com/jbejar
 * https://github.com/jrheap
 * https://github.com/Nidant
+* https://github.com/SpencerBangerter
 
 ## License
 
