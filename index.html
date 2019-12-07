@@ -33,36 +33,36 @@
 
         <div class="form-group">
 
-            <label for="exampleInputEmail1">How long do you want your password?</label><br/>
+            <label >How long do you want your password?</label><br/>
             <input id="passLength" type="Number" class="form-control" placeholder="Password Length">
 
         </div>
 
         <div class="form-group form-check">
 
-          <input id="special" type="checkbox" value="true" class="form-check-input" id="exampleCheck1"> 
-          <label class="form-check-label" for="exampleCheck1">Special Characters</label>
+          <input id="special" type="checkbox" value="true" class="form-check-input" checked> 
+          <label class="form-check-label">Special Characters</label>
 
         </div>
 
         <div class="form-group form-check">
 
-          <input id="numbers" type="checkbox" value="true" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Numbers</label>
+          <input id="numbers" type="checkbox" value="true" class="form-check-input" checked>
+          <label class="form-check-label">Numbers</label>
 
         </div>
 
         <div class="form-group form-check">
 
-          <input id="lower" type="checkbox" value="true" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Lower Case</label>
+          <input id="lower" type="checkbox" value="true" class="form-check-input" checked>
+          <label class="form-check-label">Lower Case</label>
 
         </div>
 
         <div class="form-group form-check">
 
-          <input id="upper" type="checkbox" value="true" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Upper Case</label>
+          <input id="upper" type="checkbox" value="true" class="form-check-input" checked>
+          <label class="form-check-label">Upper Case</label>
 
         </div>
 
@@ -72,7 +72,9 @@
 
           <br/>
 
-          <h5 id="newPass">Your Password Will Generate Here</h5>
+          <input type="text" value="Your Password" id="myInput">
+          
+          <button id="copy" class="btn btn-primary" onclick="copytoClipboard()">Copy to Clipboard</button>
 
           <div class= container>
             <footer class="footer fixed-bottom">
