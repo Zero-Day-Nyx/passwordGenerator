@@ -55,10 +55,10 @@ console.log(lengthNumber)
     if (!lowerChecked && !upperChecked && !numbersChecked && !specialChecked) {
         alert("Please select at least one option for your password.")
 };
-console.log(generatedPass)
 
     generatedPass.value = generate(lengthNumber, passOptions);
-    
+console.log(generatedPass)
+
 
     return; 
 });
@@ -73,8 +73,6 @@ function generate(lengthNumber, passOptions){
     for (let i = 0; i < lengthNumber; i++) {
             password += passOptions.charAt(Math.floor(Math.random() * passOptions.length))
     };
-
-    console.log(generatedPass)
     return password;
 };
 
