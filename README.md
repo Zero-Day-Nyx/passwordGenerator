@@ -3,7 +3,7 @@
 This application will generate a random password based on the users choices of characters.
 
 ### link to the deployed website
-- https://modern-viking.github.io/passwordGenerator/
+- https://Zero-Day-Nyx.github.io/passwordGenerator/
 
 ## Contents
 
