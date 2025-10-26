@@ -73,6 +73,8 @@ function generate(lengthNumber, passOptions){
     for (let i = 0; i < lengthNumber; i++) {
             password += passOptions.charAt(Math.floor(Math.random() * passOptions.length))
     };
+
+    console.log(generatedPass)
     return password;
 };
 
