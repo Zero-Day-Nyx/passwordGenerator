@@ -57,7 +57,7 @@ console.log(lengthNumber)
 };
 
     generatedPass.value = generate(lengthNumber, passOptions);
-console.log(generatedPass)
+console.log(generatedPass.value)
 
 
     return; 
